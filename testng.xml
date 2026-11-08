@@ -1,0 +1,10 @@
+<suite name="API TestSuite">
+    <listeners>
+        <listener class-name="com.be.utils.ExtentReporter"/>
+    </listeners>
+    <test thread-count="2" name="API Tests">
+        <classes>
+            <class name="com.be.testcases.ProductDataDrivenTest"/>
+        </classes>
+    </test>
+</suite>

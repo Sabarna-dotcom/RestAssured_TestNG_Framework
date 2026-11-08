@@ -1,0 +1,54 @@
+
+# Maven build output
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# TestNG
+test-output/
+surefire-reports/
+
+# Allure reports and results
+allure-results/
+allure-report/
+
+# Logs
+logs/
+*.log
+
+# Generated reports
+reports/
+*.html
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Java compiled files
+*.class
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
